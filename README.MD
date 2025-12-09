@@ -1,5 +1,7 @@
 # Building an AI-Powered Customer Support System with Db2 Vector Search, IBM Docling, and watsonx.ai
 
+![Introduction](db2_vector_support.png)
+
 ## Introduction
 
 Db2's native vector capabilities that were initially released in Db2 12.1.2, were the first step towards being able to build AI applications all within Db2. Later in 2025, Db2 continued with this direction with the release of the LLM integration for a technical preview as part of the Db2 Early Access Program. These two features enable application builders to eliminate the points of friction that exist when using dedicated Vector Databases by enabling the complete workflow to be driven directly within Db2. In this blog post, we're going to look at building a Retrieval Augmented Generation (RAG) system leveraging these two features in Db2 12.1, together with IBM Docling for intelligent document processing, and watsonx.ai for embeddings and text generation.
